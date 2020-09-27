@@ -15,7 +15,7 @@
     "Price": 300.0,
     "Quantity": 50,
     "ExpiryDate": "2022-02-03T00:00:00",
-    "Notes": null
+    "Notes": "test notes8"
   },
   {
     "Id": 3,
@@ -33,6 +33,15 @@
     "Price": 454.0,
     "Quantity": 4,
     "ExpiryDate": "2020-11-18T00:00:00",
+    "Notes": null
+  },
+  {
+    "Id": 5,
+    "Name": "Norflox",
+    "Brand": "GSK",
+    "Price": 300.0,
+    "Quantity": 50,
+    "ExpiryDate": "2020-10-15T00:00:00",
     "Notes": null
   }
 ]

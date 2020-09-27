@@ -13,6 +13,8 @@ import { SuccessModalComponent } from './shared/modals/success-modal/success-mod
 import { DatepickerDirective } from './shared/directives/datepicker.directive';
 import { DatePipe } from '@angular/common';
 import { MedicineDetailComponent } from './medicine/medicine-detail/medicine-detail.component';
+import { NotesModalComponent } from './medicine/modals/notes-modal/notes-modal.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,13 +26,14 @@ import { MedicineDetailComponent } from './medicine/medicine-detail/medicine-det
     ErrorModalComponent, 
     SuccessModalComponent, 
     DatepickerDirective, 
-    MedicineDetailComponent
+    MedicineDetailComponent, NotesModalComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    NgbModule,
     RouterModule.forRoot([
       {path:'medicine/create',component:CreateMedicineComponent},
       { path: 'medicine/:id', component: MedicineDetailComponent },
@@ -42,6 +45,7 @@ import { MedicineDetailComponent } from './medicine/medicine-detail/medicine-det
     ])
   ],
   providers: [DatePipe],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ NotesModalComponent ]
 })
 export class AppModule { }

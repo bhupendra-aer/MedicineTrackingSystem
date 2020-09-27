@@ -1,20 +1,47 @@
 [
   {
+    "Id": 1,
+    "Name": "Ciplox",
+    "Brand": "Cipla",
+    "Price": 200.0,
+    "Quantity": 20,
+    "ExpiryDate": "2020-09-18T00:00:00",
+    "Notes": null
+  },
+  {
     "Id": 2,
     "Name": "Citrazin",
-    "Brand": "Limci",
-    "Price": 56.77,
-    "Quantity": 80,
-    "ExpiryDate": "2020-09-09T00:00:00",
-    "Notes": "this is first note for citrazin"
+    "Brand": "Cipla",
+    "Price": 300.0,
+    "Quantity": 50,
+    "ExpiryDate": "2022-02-03T00:00:00",
+    "Notes": "test notes"
   },
   {
     "Id": 3,
-    "Name": "Ciplox",
-    "Brand": "Cipla",
-    "Price": 90.90,
-    "Quantity": 10,
-    "ExpiryDate": "2020-09-09T00:00:00",
-    "Notes": "this is first note"
+    "Name": "frjj",
+    "Brand": "jjfe",
+    "Price": 343.0,
+    "Quantity": 363,
+    "ExpiryDate": "2020-12-18T00:00:00",
+    "Notes": null
+  },
+  {
+    "Id": 4,
+    "Name": "freret",
+    "Brand": "rrtrt",
+    "Price": 454.0,
+    "Quantity": 4,
+    "ExpiryDate": "2020-11-18T00:00:00",
+    "Notes": null
+  },
+  {
+    "Id": 5,
+    "Name": "Norflox",
+    "Brand": "GSK",
+    "Price": 300.0,
+    "Quantity": 50,
+    "ExpiryDate": "2020-10-15T00:00:00",
+    "Notes": null
   }
 ]

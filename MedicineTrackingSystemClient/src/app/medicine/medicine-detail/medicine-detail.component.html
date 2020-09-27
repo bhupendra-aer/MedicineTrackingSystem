@@ -39,12 +39,12 @@
           {{medicine?.notes}}
         </div>
       </div> 
-      <div class="form-group row">
-        <div class="offset-5 col-md-1">
-            <button type="submit" class="btn btn-info" >Update Notes</button>
-        </div>
-        <div class="col-md-1">
-            <button type="button" class="btn btn-danger" (click)="redirectToMedicineList()">Back</button>
-        </div>
-    </div>
+</div>
+<div class="form-group row" style="margin: 20px;">
+    <table>
+        <tr>
+            <td style="margin: 40px;"><button type="button" class="btn btn-info" (click)="openModal()">Update Notes</button></td>
+            <td style="margin: 40px;"><button type="button" class="btn btn-danger" (click)="redirectToMedicineList()">Back</button></td>
+        </tr>
+    </table>
 </div>
