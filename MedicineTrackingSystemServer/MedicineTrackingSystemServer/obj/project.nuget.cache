@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FD5sBH8i3q9vF6mlCCmzn6/LnMm4xC70mByObDcVxaeTT6XH1HqWZ3jaoq1JRfS7hu64h//pmIKeZSG/MBUQzw==",
+  "success": true,
+  "projectFilePath": "D:\\Medicine Traking System\\MedicineTrackingSystemServer\\MedicineTrackingSystemServer\\MedicineTrackingSystemServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arjun\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

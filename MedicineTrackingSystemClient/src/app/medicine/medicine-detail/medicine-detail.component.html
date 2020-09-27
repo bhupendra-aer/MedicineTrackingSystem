@@ -1,0 +1,50 @@
+<div class="card card-body bg-light mb-2 mt-2">
+    <div class="row">
+      <div class="col-md-3">
+        <strong>Medicine name:</strong>
+      </div>
+      <div class="col-md-3">
+        {{medicine?.name}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <strong>Price:</strong>
+      </div>
+      <div class="col-md-3">
+        {{medicine?.price}}
+      </div>
+    </div> 
+    <div class="row">
+        <div class="col-md-3">
+          <strong>Quantity:</strong>
+        </div>
+        <div class="col-md-3">
+          {{medicine?.quantity}}
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Expiry Date:</strong>
+        </div>
+        <div class="col-md-3">
+          {{medicine?.expiryDate | date: 'dd/MM/yyyy'}}
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Notes:</strong>
+        </div>
+        <div class="col-md-3">
+          {{medicine?.notes}}
+        </div>
+      </div> 
+      <div class="form-group row">
+        <div class="offset-5 col-md-1">
+            <button type="submit" class="btn btn-info" >Update Notes</button>
+        </div>
+        <div class="col-md-1">
+            <button type="button" class="btn btn-danger" (click)="redirectToMedicineList()">Back</button>
+        </div>
+    </div>
+</div>

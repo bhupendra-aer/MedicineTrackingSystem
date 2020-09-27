@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 2,
+    "Name": "Citrazin",
+    "Brand": "Limci",
+    "Price": 56.77,
+    "Quantity": 80,
+    "ExpiryDate": "2020-09-09T00:00:00",
+    "Notes": "this is first note for citrazin"
+  },
+  {
+    "Id": 3,
+    "Name": "Ciplox",
+    "Brand": "Cipla",
+    "Price": 90.90,
+    "Quantity": 10,
+    "ExpiryDate": "2020-09-09T00:00:00",
+    "Notes": "this is first note"
+  }
+]

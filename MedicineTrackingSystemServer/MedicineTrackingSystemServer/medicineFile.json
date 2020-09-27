@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Name": "Ciplox",
+    "Brand": "Cipla",
+    "Price": 200.0,
+    "Quantity": 20,
+    "ExpiryDate": "2020-09-18T00:00:00",
+    "Notes": null
+  },
+  {
+    "Id": 2,
+    "Name": "Citrazin",
+    "Brand": "Cipla",
+    "Price": 300.0,
+    "Quantity": 50,
+    "ExpiryDate": "2022-02-03T00:00:00",
+    "Notes": null
+  },
+  {
+    "Id": 3,
+    "Name": "frjj",
+    "Brand": "jjfe",
+    "Price": 343.0,
+    "Quantity": 363,
+    "ExpiryDate": "2020-12-18T00:00:00",
+    "Notes": null
+  },
+  {
+    "Id": 4,
+    "Name": "freret",
+    "Brand": "rrtrt",
+    "Price": 454.0,
+    "Quantity": 4,
+    "ExpiryDate": "2020-11-18T00:00:00",
+    "Notes": null
+  }
+]

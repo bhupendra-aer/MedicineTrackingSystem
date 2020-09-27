@@ -1,0 +1,40 @@
+
+  <div class="row"> 
+    <div class="form-group" style="margin-left: 30px;margin-top: 30px;">
+        <input type="text" class="form-control" placeholder="Search By Name"
+                style="width:300px" [(ngModel)]="searchTerm" />
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Medicine name</th>
+              <th>Brand</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Expiry Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let medicine of filteredMedicines">
+              <td [style.background-color]="medicine.quantity<10 ? 'yellow' : (getExpiryDays(medicine.expiryDate)<30?'red':'')">{{medicine.name}}</td>
+              <td [style.background-color]="medicine.quantity<10 ? 'yellow' : (getExpiryDays(medicine.expiryDate)<30?'red':'')">{{medicine.brand}}</td>
+              <td [style.background-color]="medicine.quantity<10 ? 'yellow' : (getExpiryDays(medicine.expiryDate)<30?'red':'')">{{medicine.price}}</td>
+              <td [style.background-color]="medicine.quantity<10 ? 'yellow' : (getExpiryDays(medicine.expiryDate)<30?'red':'')">{{medicine.quantity}}</td>
+              <td [style.background-color]="medicine.quantity<10 ? 'yellow' : (getExpiryDays(medicine.expiryDate)<30?'red':'')">{{medicine.expiryDate | date: 'dd/MM/yyyy'}}</td>
+              <td><button type="button" id="details" (click)="getMedicineDetails(medicine.id)" class="btn btn-light">Details</button></td>
+            </tr>
+            <tr *ngIf="!filteredMedicines || filteredMedicines.length==0">
+                <td colspan="6">
+                    No Data Found
+                </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
